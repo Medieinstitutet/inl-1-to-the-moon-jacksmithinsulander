@@ -1,0 +1,2 @@
+1. Make scematic HTML
+2. Add CSS
