@@ -66,17 +66,23 @@ body{
 	transition:all 0.3s ease-in-out;
 }
 #menuToggle {
-  display: none;
+	display: none;
 }
 #menu {
-  overflow: hidden;
-  max-height: 0;
-  padding: 0;
-  margin: 0 auto;
-  -webkit-transition: all 0.3s ease;
+	overflow: hidden;
+	max-height: 0;
+	padding: 0;
+	margin: 0 auto;
+	-webkit-transition: all 0.3s ease;
 }
 #menuToggle:checked + #menu {
-  max-height: 100px;
+	max-height: 100px;
+}
+/*TEXTPAGE*/
+.textPage{
+	background-image:url('../img/space.jpg');
+	background-size:cover;
+	color:white;
 }
 /*DESKTOP*/
 @media screen and (min-width:800px){

@@ -14,11 +14,11 @@
 13. Quotes are in rubic italic
 14. Major tom image, desktop only
 15. Make sure the website stays goodlooking without any css
-16. Make the menu button Sticky
+16. Make the menu button Sticky (done)
 
 -Other things
-1. Background on second page (make a link to it as well)
+1. Background on second page
 2. Css placements and styling on second page
 3. Fix position of astronaut
 4. Add cookie footer (sticky)
-5. 
+5.  Make a link to the second page
