@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>To the Moon</title>
-	<link rel='stylesheet' type='text/css' href="style.css">
 	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name"viewport" content="width=device-width, initial-scale=1.0">
+	<title>To the Moon</title>
+	<link rel='stylesheet' type='text/css' href="css/normalize.css">
+	<link rel='stylesheet' type='text/css' href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-	<h1> TO THE MOON </h1>
-	<p> Read our story </p>
-	<button>
-	</button>
-	<ul>
-		<li>OUR STORY</li>
-		<li>SPACE VENTURES</li>
-		<li>ABOUT MAJOR TOM</li>
-	</ul>
+	<header class="fullHeight astronaut">
+		<figure class="headingBox">
+			<h1 class="allCaps headerText"> To The Moon </h1>
+			<p class="headerLink"> Read our story <span> --> </span> </p>
+		</figure>
+		<label for="menuToggle" class="hamburgerMenu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+		<input type="checkbox" id="menuToggle"/>
+		<ul id="menu">
+			<li>Our Story</li>
+			<li>Space Ventures</li>
+			<li>About Major Tom</li>
+		</ul>
 	</header>
-	<main>
+	<main class="fullHeight textPage">
 		<h2>Ground Control to Major Tom</h2>
 			<p>Ground Control to Major Tom. Take your protein pills and put your helmet on. Ground Control to Major Tom (ten, nine, eight, seven, six). Commencing countdown, engines on (five, fo	ur, three). Check ignition and may God's love be with you (two, one, liftoff). This is Ground Control to Major Tom. <br> <br>
 You've really made the grade. And the papers want to know whose shirts you wear. Now it's time to leave the capsule if you dare. This is Major Tom to Ground Control. I'm stepping through the door. </p>
