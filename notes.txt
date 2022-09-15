@@ -1,3 +1,24 @@
-1. Make scematic HTML
-2. Add CSS
-2. Structure everything nicely in folders
+- From Brief
+1. colorcode pink.
+2. create a nicelooking arrow.
+3. arrow animation (done)
+4. "and im floating" specialrequests
+5. "save ventures" make "ventures" transparent", and special placement
+6. Rubic font (done)
+7. Times new roman font
+8. Menu special request
+9. Menu dropshadow (blurry background)
+10. Desktop pink line (see pictures)
+11. Cookie text
+12. Remove second quote from phoneview
+13. Quotes are in rubic italic
+14. Major tom image, desktop only
+15. Make sure the website stays goodlooking without any css
+16. Make the menu button Sticky
+
+-Other things
+1. Background on second page (make a link to it as well)
+2. Css placements and styling on second page
+3. Fix position of astronaut
+4. Add cookie footer (sticky)
+5. 
