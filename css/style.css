@@ -66,14 +66,14 @@ body{
 	transition:all 0.3s ease-in-out;
 }
 #menuToggle {
-	display: none;
+	display:none;
 }
 #menu {
-	overflow: hidden;
-	max-height: 0;
-	padding: 0;
-	margin: 0 auto;
-	-webkit-transition: all 0.3s ease;
+	overflow:hidden;
+	max-height:0;
+	padding:0;
+	margin:0 auto;
+	-webkit-transition:all 0.3s ease;
 }
 #menuToggle:checked + #menu {
 	max-height: 100px;
@@ -84,6 +84,14 @@ body{
 	background-size:cover;
 	color:white;
 	font-family:'Rubik', sans-serif;
+}
+.textPage .wrapper{
+	display:block;
+}
+.textPage .columns{
+	width:100%;
+	box-sizing:border-box;
+	padding:50px;
 }
 .textPage .spaceVentures{
 	font-size:450%;
@@ -104,6 +112,9 @@ body{
 	font-size:130%;
 }
 .textPage .quoteB{
+	visibility:hidden;
+}
+.textPage .majorTom{
 	visibility:hidden;
 }
 /*FOOTER*/
@@ -137,5 +148,11 @@ footer{
 	}
 	.textPage .quoteB{
 		visibility:visible;
+	}
+	.textPage .majorTom{
+		visibility:visible;
+	}
+	.textPage .wrapper{
+		display:flex;
 	}
 }
