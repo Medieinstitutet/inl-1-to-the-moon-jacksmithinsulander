@@ -135,10 +135,7 @@ body{
 	left:75px;
 	margin:20px 0;
 }
-.textPage .quoteB{
-	display:none;
-}
-.textPage .majorTom{
+.textPage .quoteB .gradient .majorTom{
 	display:none;
 }
 .textPage .pinkText{
@@ -179,6 +176,12 @@ footer{
 	}
 	.textPage .quoteB{
 		display:block;
+		font-size:250%;
+		background-image: linear-gradient(to bottom right, #D200A2, yellow, #D200A2);
+		color: #de466c;
+   		-webkit-background-clip: text;
+   		-webkit-text-fill-color: transparent;
+		opacity:0.4;
 	}
 	.textPage .majorTom{
 		display:block;
