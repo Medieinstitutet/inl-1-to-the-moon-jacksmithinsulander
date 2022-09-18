@@ -26,7 +26,7 @@ body{
 	top:80px;
 	left:40px;
 	padding:20px;
-	font-family:'Rubik', sans-serif;
+	font-family:"Rubik", sans-serif;
 }
 .astronaut .allCaps{
 	text-transform:uppercase;
@@ -54,7 +54,7 @@ body{
 	background-color:transparent;
 	border:0;
 }
-.hamburgerMenu span{
+.hamburgerMenu .lines{
 	width:30px;
 	height:5px;
 	margin-bottom:4px;
@@ -83,39 +83,63 @@ body{
 	background-image:url('../img/space.jpg');
 	background-size:cover;
 	color:white;
-	font-family:'Rubik', sans-serif;
+	font-family:"Rubik", sans-serif;
 }
 .textPage .wrapper{
 	display:block;
+	position:relative;
 }
 .textPage .columns{
 	width:100%;
 	box-sizing:border-box;
-	padding:50px;
+	padding:0 70px;
 }
 .textPage .spaceVentures{
-	font-size:450%;
+	margin: auto;
+  	width: 90%;
+  	padding: 10px;
+	font-size:800%;
+	height:200px;
+}
+.textPage .space{
+	font-weight:600;
+	font-size:85px;
 }
 .textPage .ventures{
-	font-family:serif;
-	font-style:bold;
+	font-family:"Times New Roman", serif;
+	font-weight:bold;
+	font-size:105px;
 	opacity:0.7;
+	position:relative;
+	left:78px;
+	bottom:105px;
 }
 .textPage .titleTextPage{
-	font-size:180%;
+	font-size:200%;
+	font-weight:bold;
+	margin:15px 5px;
+}
+.textPage .textStyle{
+	line-height: 1.6;
+	margin:6px 0;
+	font-weight:400;
+	font-size:15px;
 }
 .textPage .quotes{
 	font-style:italic;
 	font-weight:400;
 }
 .textPage .quoteA{
-	font-size:130%;
+	font-size:140%;
+	position:relative;
+	left:75px;
+	margin:20px 0;
 }
 .textPage .quoteB{
-	visibility:hidden;
+	display:none;
 }
 .textPage .majorTom{
-	visibility:hidden;
+	display:none;
 }
 /*FOOTER*/
 footer{
@@ -147,10 +171,10 @@ footer{
 		left:10px;
 	}
 	.textPage .quoteB{
-		visibility:visible;
+		display:block;
 	}
 	.textPage .majorTom{
-		visibility:visible;
+		display:block;
 	}
 	.textPage .wrapper{
 		display:flex;
