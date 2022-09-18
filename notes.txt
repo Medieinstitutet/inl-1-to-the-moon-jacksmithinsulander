@@ -4,7 +4,7 @@
 3. arrow animation (done)
 4. "and im floating" specialrequests
 5. "space ventures" make "ventures" transparent" (done)
-5.5 "space ventures" special placement 
+5.5 "space ventures" special placement (done)
 6. Rubic font (done)
 7. Times new roman font (done)
 8. Menu special request
@@ -15,16 +15,15 @@
 12. Remove second quote from phoneview(done)
 12.5 Second quote gradient
 13. Quotes are in rubic italic (done)
-14. Major tom image, desktop only
+14. Major tom image, desktop only (done)
 15. Make sure the website stays goodlooking without any css
 16. Make the menu button Sticky (done)
 
 -Other things
 1. Background on second page(done)
-2. Css placements and styling on second page
-3. Fix position of of backgrounds
+2. Css placements and styling on second page (done)
+3. Fix position of of backgrounds, also make second background image darker
 4. Add cookie footer (done)
 5. Make a link to the second page
 6. Make the button better
-7. Linespacing textpage
-8. 
+7. Linespacing textpage (done)

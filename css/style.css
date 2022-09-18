@@ -141,6 +141,13 @@ body{
 .textPage .majorTom{
 	display:none;
 }
+.textPage .pinkText{
+	font-size:13px;
+	color:#D200A2;
+}
+.textPage .linkUnderline{
+	text-decoration:underline;
+}
 /*FOOTER*/
 footer{
 	background-color: rgb(100,135,220);
