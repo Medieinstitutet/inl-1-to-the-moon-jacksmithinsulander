@@ -27,3 +27,9 @@
 5. Make a link to the second page
 6. Make the button better
 7. Linespacing textpage (done)
+8. Insert image of Major Tom in a better way
+9. Add Shadows to "logo"
+10. Make correct logo placements in desktop view
+11. Redo font sizings from px to rem
+12. Add scss to site 
+13. Make the correct line breaks on booth desktop/phonevire on "Far above the moon"
