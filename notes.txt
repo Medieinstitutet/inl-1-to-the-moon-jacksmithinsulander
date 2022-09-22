@@ -2,7 +2,7 @@
 1. colorcode pink. (done, RGB = #D200A2)
 2. create a nicelooking arrow.(done)
 3. arrow animation (done)
-4. "and im floating" specialrequests
+4. "and im floating" specialrequests(done
 5. "space ventures" make "ventures" transparent" (done)
 5.5 "space ventures" special placement (done)
 6. Rubic font (done)
