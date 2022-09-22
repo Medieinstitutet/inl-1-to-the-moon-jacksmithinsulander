@@ -1,13 +1,13 @@
 - From Brief
 1. colorcode pink. (done, RGB = #D200A2)
-2. create a nicelooking arrow.
+2. create a nicelooking arrow.(done)
 3. arrow animation (done)
 4. "and im floating" specialrequests
 5. "space ventures" make "ventures" transparent" (done)
 5.5 "space ventures" special placement (done)
 6. Rubic font (done)
 7. Times new roman font (done)
-8. Menu special request
+8. Menu special request (done)
 9. Menu dropshadow (blurry background)
 10. Desktop pink line (see pictures)
 11. Cookie text (done)
@@ -22,14 +22,14 @@
 -Other things
 1. Background on second page(done)
 2. Css placements and styling on second page (done)
-3. Fix position of of backgrounds, also make second background image darker
+3. Fix position of of backgrounds, also make second background image darker(done)
 4. Add cookie footer (done)
 5. Make a link to the second page
-6. Make the button better
+6. Make the button better(done)
 7. Linespacing textpage (done)
-8. Insert image of Major Tom in a better way
-9. Add Shadows to "logo"
-10. Make correct logo placements in desktop view
-11. Redo font sizings from px to rem
+8. Insert image of Major Tom in a better way(done)
+9. Add Shadows to "logo" (done)
+10. Make correct logo placements in desktop view(done)
+11. Redo font sizings from px to rem(done)
 12. Add scss to site 
-13. Make the correct line breaks on booth desktop/phonevire on "Far above the moon"
+13. Make the correct line breaks on booth desktop/phoneview on "Far above the moon"(done)
