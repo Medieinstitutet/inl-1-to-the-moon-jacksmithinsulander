@@ -1,16 +1,9 @@
-/*HELPERS */
-body{
-	background-color:yellow;
+*{
+	padding:0;
+	margin:0;
 }
-/*LAYOUT*/
 .fullHeight{
 	min-height:100vh;
-}
-.astronaut{
-	background-color:coral;
-}
-.textPage{
-	background-color:seagreen;
 }
 /*ASTRONAUT*/
 .astronaut{
@@ -39,6 +32,8 @@ body{
 }
 .astronaut .headingBox .headerLink{
 	margin-bottom:3px;
+	text-decoration:none;
+	color:black;
 }
 /*HAMBURGER*/
 .hamburgerMenu{
@@ -91,11 +86,15 @@ body{
 	top:0;
 	left:0;
 	background-color:rgba(255, 255, 255, 0.5);
-	width: 100vw;
+	width:100vw;
 	height:100vh;
 	opacity:0;
 	transition:all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 	visibility:hidden;
+}
+.navBar a{
+	color:black;
+	text-decoration: none;
 }
 .menuToggle:checked + .hamburgerWrap .navBar{
 	visibility:visible;
@@ -113,9 +112,17 @@ body{
 	font-family:"Rubik", sans-serif;
 	font-weight:bold;
 	font-size:4rem;
-	text-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+	text-shadow:0px 5px rgba(0, 0, 0, 0.3);
 }
-
+.navBar .menu .underline{
+	text-decoration:none;
+	background-image:linear-gradient(90deg, pink, #D200A2);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	background-size:0% 3px;
+	border-radius:5px;
+	transition:background-size 300ms ease-in-out;
+}
 /*TEXTPAGE*/
 .textPage{
 	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/space.jpg');
@@ -144,7 +151,7 @@ body{
 	font-weight:600;
 	font-size:85px;
 	position:relative;
-	z-index:10
+	z-index:3;
 }
 .textPage .ventures{
 	font-family:"Times New Roman", serif;
@@ -190,7 +197,7 @@ body{
 .textPage .quoteA::after{
 	content:close-quote;
 	font-weight:bold;
-	font-size1.8rem;
+	font-size:1.8rem;
 	color:white;
 	opacity:50%;
 	font-family:"Times New Roman", Times, serif;
@@ -215,31 +222,54 @@ body{
 	font-size:1.5rem;
 }
 /*FOOTER*/
-footer{
+.cookiePopUp{
+	box-sizing:border-box;
+	z-index:5;
 	background-color:#000E1B;
 	color:#fff;
-	padding:20px;
 	position:fixed;
 	bottom:0;
 	width:100%;
-	height:40px;
+	font-family:"Rubik", sans-serif;
 	display:flex;
 	justify-content:space-between;
+	align-items:center;
+	padding:20px 2%;
 }
-footer section{
-	display:flex;
-	justify-content:space-between;
+.cookiePopUp .cookieText .cookieButton .buttonText{
+	display:inline-block;
+	padding:0 20px;
+}
+.cookiePopUp .cookieText{
+	color:#D200A2;
+	text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	font-size:0.75rem;
+}
+.buttonText{
+	color:white;
+	font-weight:bold;
+}
+.cookiePopUp .cookieButton{
+	background-color:#003568;
+	border:0;
+	padding:7px 13px;
+	cursor:pointer;
+}
+.cookiePopUp.disable{
+	display:none;
 }
 /*DESKTOP*/
 @media screen and (min-width:800px){
-	.menuToggle:hover .lines:nth-child(2){
-		right:4px;
+	.menu li:hover .underline{
+		background-size:100% 7px;
+		color:inherit;
 	}
 	.astronaut .headingBox{
 		width:15rem;
 	}
 	.astronaut .headingBox .headerLink{
-		text-align:right;
+		float:right;
+		cursor:pointer;
 	}
 	.astronaut .headingBox .headerLink span{
 		position:relative;
@@ -293,19 +323,35 @@ footer section{
 		padding:40px 0;
 		width:400px;
 	}
-	.textPage .majorTomText::before{
+	.textPage .majorTomImg::before{
 		content:"";
 		background-image:url("../img/major_tom.jpg");
-		background-size:85px 135px;
+		background-size:85px 125px;
 		width:85px; 
-		height:135px;
+		height:125px;
 		display:block;
-		transform: rotate(5deg);
+		transform: rotate(3deg);
 		float:right;
-		margin:3px;
-		padding:5px;
+		margin:0 40px;
 	}
 	.insertLineBreak::before{
-	content:none;
+		content:none;
+	}
+	.textPage .majorTomLink{
+		cursor:pointer;
+	}
+	.textPage .majorTomLink .arrow{
+		position:relative;
+		left:0;
+		transition:left 0.3s ease-in-out;
+	}
+	.textPage .majorTomLink:hover .arrow{
+		left:10px;
+	}
+	.cookiePopUp .cookieText{
+		font-size:0.9rem;
+	}
+	.cookiePopUp .cookieButton:hover{
+		background-color:#002A53;
 	}
 }
